@@ -345,6 +345,17 @@
             ],
             "expression": "SUM(Sheet1[Profit])",
             "lineageTag": "1d7fee78-d36e-4666-b0e9-e132db862aad"
+          },
+          {
+            "name": "new measure",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(Sheet1[COGS])",
+            "lineageTag": "e0814177-4c41-409a-9280-c88145ddfb96"
           }
         ],
         "partitions": [
