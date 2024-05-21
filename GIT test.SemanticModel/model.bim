@@ -12,7 +12,7 @@
       },
       {
         "name": "PBIDesktopVersion",
-        "value": "2.129.905.0 (24.05)"
+        "value": "2.128.1380.0 (24.04)"
       },
       {
         "name": "PBI_ProTooling",
@@ -312,6 +312,19 @@
           }
         ],
         "lineageTag": "cb199967-272f-4758-b283-011ae860c3d3",
+        "measures": [
+          {
+            "name": "sum_of_profit",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM(Sheet1[Profit])",
+            "lineageTag": "e13f53ee-80b2-486d-902e-2bfe8518bb83"
+          }
+        ],
         "partitions": [
           {
             "name": "Sheet1",
